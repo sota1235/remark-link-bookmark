@@ -1,0 +1,42 @@
+{
+  "name": "ts-simple-boilderplate",
+  "version": "0.0.1",
+  "description": "Simple boilerplate for @sota1235",
+  "main": "dist/index.js",
+  "type": "module",
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@sota1235/eslint-config": "5.0.1",
+    "eslint": "9.14.0",
+    "husky": "9.1.6",
+    "lint-staged": "15.2.10",
+    "prettier": "3.3.3",
+    "ts-loader": "9.5.1",
+    "typescript-eslint": "8.13.0",
+    "vitest": "^2.1.4"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.publish.json",
+    "build:publish": "tsc -p ./tsconfig.publish.json",
+    "watch": "tsc --watch",
+    "fix": "npm run prettier && npm run eslint:fix",
+    "lint": "npm run eslint",
+    "eslint": "eslint 'src/**/*.ts'",
+    "eslint:fix": "npm run eslint --fix",
+    "prettier": "prettier './src/**/*.ts' --write",
+    "test": "vitest",
+    "test:ci": "vitest",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "@sota1235",
+  "license": "MIT",
+  "lint-staged": {
+    "*.ts": [
+      "npm run fix"
+    ]
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}

@@ -1,0 +1,12 @@
+.github/
+.husky
+src/
+eslint.config.js
+.gitignore
+.node-version
+.npmignore
+.prettierrc.cjs
+pnpm-lock.yaml
+renovate.json
+tsconfig.json
+tsconfig.*.json

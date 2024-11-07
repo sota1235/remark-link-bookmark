@@ -1,0 +1,63 @@
+name: Publishing to npm
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "!*"
+    paths:
+      - 'package.json'
+
+jobs:
+  check-version:
+    name: Checking whether it can be published or not
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
+
+      - name: Setting up Node.js
+        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
+
+      - name: Executing can-npm-publish
+        run: npx can-npm-publish --verbose
+
+  release:
+    name: Releasing
+    needs: check-version
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
+
+      - name: Setting up Node.js
+        uses: .github/actions/setup-node@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
+
+      - name: Installing dependencies
+        run: pnpm i
+
+      - name: Extract package-version
+        run: |
+          # shellcheck disable=SC2016
+          node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> "$GITHUB_ENV"
+
+      - name: package-version-to-git-tag
+        uses: pkgdeps/git-tag-action@ef111413f44ebe5cc05994e7f5b5b9edaaada08d # v3.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_repo: ${{ github.repository }}
+          version: ${{ env.PACKAGE_VERSION }}
+          git_commit_sha: ${{ github.sha }}
+          git_tag_prefix: "v"
+
+      - name: Build package
+        run: pnpm run build:publish
+
+      - name: Publishing to npm
+        run: pnpm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

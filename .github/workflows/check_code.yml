@@ -1,0 +1,29 @@
+name: Checking code quality
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Setting up Node.js
+        uses: ./.github/actions/setup-node
+
+      - name: npm install
+        run: pnpm i
+
+      - name: build
+        run: pnpm run build
+
+      - name: lint
+        run: pnpm run lint
+
+      - name: test
+        run: pnpm run test:ci
