@@ -1,7 +1,7 @@
 {
-  "name": "ts-simple-boilderplate",
+  "name": "@sota1235/remark-link-bookmark",
   "version": "0.0.1",
-  "description": "Simple boilerplate for @sota1235",
+  "description": "Remark plugin to convert link to bookmark component",
   "main": "dist/index.js",
   "type": "module",
   "dependencies": {
@@ -40,7 +40,7 @@
     "test:ci": "vitest",
     "prepare": "husky"
   },
-  "keywords": [],
+  "keywords": ["remark"],
   "author": "@sota1235",
   "license": "MIT",
   "lint-staged": {
