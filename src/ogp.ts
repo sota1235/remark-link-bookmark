@@ -1,5 +1,6 @@
 import { ErrorResult, SuccessResult } from 'open-graph-scraper/types/lib/types';
 import ogs from 'open-graph-scraper';
+import * as fs from 'node:fs';
 
 export type OgpInfo = {
   title: string;
@@ -10,11 +11,33 @@ export type OgpInfo = {
   url: string;
 };
 
+export type CacheOption = {
+  cacheFilePath?: string;
+  cacheFileName?: string;
+};
+
 function isError(result: ErrorResult | SuccessResult): result is ErrorResult {
   return result.error;
 }
 
-export async function fetchOgpInfo(url: string): Promise<OgpInfo | undefined> {
+export async function fetchOgpInfo(
+  url: string,
+  { cacheFilePath, cacheFileName }: CacheOption,
+): Promise<OgpInfo | undefined> {
+  const cacheEnabled =
+    cacheFilePath !== undefined && cacheFileName !== undefined;
+  if (cacheEnabled) {
+    const cacheData = await fs.promises.readFile(
+      `${cacheFilePath}/${cacheFileName}`,
+      'utf-8',
+    );
+    const cache = JSON.parse(cacheData);
+    if (cache[url] !== undefined) {
+      console.log(`Cache hit: ${url}`);
+      return cache[url];
+    }
+  }
+
   const data = await ogs({ url });
 
   if (isError(data)) {
@@ -34,7 +57,7 @@ export async function fetchOgpInfo(url: string): Promise<OgpInfo | undefined> {
     ogImage.alt = data.result.ogImage[0].alt;
   }
 
-  return {
+  const result = {
     title: data.result.ogTitle || url,
     description: data.result.ogDescription,
     faviconSrc: `https://www.google.com/s2/favicons?domain=${url}`,
@@ -42,4 +65,20 @@ export async function fetchOgpInfo(url: string): Promise<OgpInfo | undefined> {
     ogImageAlt: ogImage.alt,
     url,
   };
+
+  if (cacheEnabled) {
+    const cacheData = await fs.promises.readFile(
+      `${cacheFilePath}/${cacheFileName}`,
+      'utf-8',
+    );
+    const cache = JSON.parse(cacheData);
+    cache[url] = result;
+    await fs.promises.writeFile(
+      `${cacheFilePath}/${cacheFileName}`,
+      JSON.stringify(cache, null, 2),
+    );
+    console.log(`Cache updated: ${url}`);
+  }
+
+  return result;
 }

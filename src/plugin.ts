@@ -2,7 +2,7 @@ import type { Html, Root } from 'mdast';
 import type { Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
 import { isUrl } from './url';
-import { fetchOgpInfo } from './ogp';
+import { CacheOption, fetchOgpInfo } from './ogp';
 import { buildBookmarkHtml } from './view';
 
 export type Options = {
@@ -19,6 +19,7 @@ export type Options = {
     footerLink?: string;
     favicon?: string;
   };
+  cache?: CacheOption;
 };
 
 const remarkLinkBookmark: Plugin<[options: Options], Root> = (
