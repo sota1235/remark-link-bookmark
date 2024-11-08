@@ -1,48 +1,99 @@
 import { OgpInfo } from './ogp';
+import createDOMPurify from 'dompurify';
+import clsx from 'clsx';
+import { Options } from './plugin.js';
+import { JSDOM } from 'jsdom';
+
+function buildDescriptionHtml(
+  description: string | undefined,
+  className: string,
+): string {
+  return description !== undefined
+    ? `<p class="${className}">${description}</p>`
+    : '';
+}
+
+function buildOgpImageHtml(
+  ogImageSrc: string | undefined,
+  ogImageAlt: string | undefined,
+  className: string,
+): string {
+  return ogImageSrc !== undefined
+    ? `<img class="${className}" src="${ogImageSrc}" alt="${ogImageAlt}" />`
+    : '';
+}
 
 export const buildBookmarkHtml = (
-  {
-    title,
-    description,
-    faviconSrc,
-    ogImageSrc,
-    ogImageAlt,
-    url,
-    displayUrl,
-  }: OgpInfo,
-  {
-    classPrefix,
-  }: {
-    classPrefix?: string;
-  },
+  { title, description, faviconSrc, ogImageSrc, ogImageAlt, url }: OgpInfo,
+  { classPrefix = 'rlb', mergeClassNames }: Options,
 ): string => {
-  const faviconElement = faviconSrc
-    ? `<img class="${classPrefix}-favicon" src="${faviconSrc}" alt="${title} favicon" width="16" height="16">`.trim()
-    : '';
+  const host = new URL(url).host;
+  const dompurify = createDOMPurify(new JSDOM('').window);
 
-  const descriptionElement = description
-    ? `<div class="${classPrefix}-description">${description}</div>`
-    : '';
-
-  // create image element
-  const imageElement = ogImageSrc
-    ? `<div class="${classPrefix}-image-container">
-      <img class="${classPrefix}-image" src="${ogImageSrc}" alt="${ogImageAlt}" />
-    </div>`.trim()
-    : '';
+  const containerClassName = clsx(
+    `${classPrefix}-container`,
+    mergeClassNames?.container,
+  );
+  const contentClassName = clsx(
+    `${classPrefix}-content`,
+    mergeClassNames?.content,
+  );
+  const infoClassName = clsx(`${classPrefix}-info`, mergeClassNames?.info);
+  const titleClassName = clsx(`${classPrefix}-title`, mergeClassNames?.title);
+  const titleLinkClassName = clsx(
+    `${classPrefix}-title-link`,
+    mergeClassNames?.titleLink,
+  );
+  const descriptionClassName = clsx(
+    `${classPrefix}-description`,
+    mergeClassNames?.description,
+  );
+  const imageClassName = clsx(`${classPrefix}-image`, mergeClassNames?.image);
+  const footerClassName = clsx(
+    `${classPrefix}-footer`,
+    mergeClassNames?.footer,
+  );
+  const footerLinkClassName = clsx(
+    `${classPrefix}-footer-link`,
+    mergeClassNames?.footerLink,
+  );
+  const faviconImageClassName = clsx(
+    `${classPrefix}-favicon`,
+    mergeClassNames?.favicon,
+  );
 
   // create output HTML
-  return `
-<a class="${classPrefix}-container" href="${url}">
-  <div class="${classPrefix}-info">
-    <div class="${classPrefix}-title">${title}</div>
-    ${descriptionElement}
-    <div class="${classPrefix}-url-container">
-      ${faviconElement}
-      <span class="${classPrefix}-url">${displayUrl}</span>
-    </div>
+  return dompurify
+    .sanitize(
+      `
+<div class="${containerClassName}">
+  <div class="${contentClassName}">
+    <div class="${infoClassName}">
+      <h2 class="${titleClassName}">
+        <a 
+          class="${titleLinkClassName}"
+          href="${url}" 
+          target="_blank"
+          rel="noopener noreferrer"  
+        >
+          ${title}
+        </a>
+      </h2>${buildDescriptionHtml(description, descriptionClassName)}
+    </div>${buildOgpImageHtml(ogImageSrc, ogImageAlt, imageClassName)}
   </div>
-  ${imageElement}
-</a>
-`.trim();
+  <div class="${footerClassName}">
+    <a
+      class="${footerLinkClassName}"
+      href="${url}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img class="${faviconImageClassName}" src="${faviconSrc}" alt="${host}" />
+      ${host}
+    </a>
+  </div>
+</div>
+`,
+    )
+    .trim();
 };

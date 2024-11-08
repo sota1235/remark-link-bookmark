@@ -4,10 +4,9 @@ import ogs from 'open-graph-scraper';
 export type OgpInfo = {
   title: string;
   description?: string;
-  faviconSrc?: string;
+  faviconSrc: string;
   ogImageSrc?: string;
   ogImageAlt?: string;
-  displayUrl?: string;
   url: string;
 };
 
@@ -41,7 +40,6 @@ export async function fetchOgpInfo(url: string): Promise<OgpInfo | undefined> {
     faviconSrc: `https://www.google.com/s2/favicons?domain=${url}`,
     ogImageSrc: ogImage.src,
     ogImageAlt: ogImage.alt,
-    displayUrl: data.result.requestUrl,
     url,
   };
 }

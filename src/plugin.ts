@@ -5,13 +5,25 @@ import { isUrl } from './url';
 import { fetchOgpInfo } from './ogp';
 import { buildBookmarkHtml } from './view';
 
-type Options = {
+export type Options = {
   classPrefix?: string;
+  mergeClassNames?: {
+    container?: string;
+    content?: string;
+    info?: string;
+    title?: string;
+    titleLink?: string;
+    description?: string;
+    image?: string;
+    footer?: string;
+    footerLink?: string;
+    favicon?: string;
+  };
 };
 
-const remarkLinkBookmark: Plugin<[options: Options], Root> = ({
-  classPrefix = 'rlb',
-}: Options) => {
+const remarkLinkBookmark: Plugin<[options: Options], Root> = (
+  options: Options,
+) => {
   return async (tree: Root) => {
     const transformers: (() => Promise<void>)[] = [];
     visit(
@@ -50,9 +62,7 @@ const remarkLinkBookmark: Plugin<[options: Options], Root> = ({
           }
           const linkCardNode: Html = {
             type: 'html',
-            value: buildBookmarkHtml(ogpInfo, {
-              classPrefix,
-            }),
+            value: buildBookmarkHtml(ogpInfo, options),
           };
 
           tree.children.splice(index, 1, linkCardNode);

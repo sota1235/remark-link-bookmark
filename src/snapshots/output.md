@@ -1,16 +1,22 @@
 # Sample
 
-<a class="rlc-container" href="https://example.com">
-  <div class="rlc-info">
-    <div class="rlc-title">Example Domain</div>
-    
-    <div class="rlc-url-container">
-      <img class="rlc-favicon" src="https://www.google.com/s2/favicons?domain=https://example.com" alt="Example Domain favicon" width="16" height="16">
-      <span class="rlc-url">https://example.com</span>
+<div class="rlb-container">
+  <div class="rlb-content">
+    <div class="rlb-info">
+      <h2 class="rlb-title">
+        <a rel="noopener noreferrer" href="https://example.com" class="rlb-title-link">
+          Example Domain
+        </a>
+      </h2>
     </div>
   </div>
-  
-</a>
+  <div class="rlb-footer">
+    <a rel="noopener noreferrer" href="https://example.com" class="rlb-footer-link">
+      <img alt="example.com" src="https://www.google.com/s2/favicons?domain=https://example.com" class="rlb-favicon">
+      example.com
+    </a>
+  </div>
+</div>
 
 [example](http://example.com/) is inline link
 
