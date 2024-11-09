@@ -1,4 +1,4 @@
-import { OgpInfo } from './ogp';
+import { OgpInfo } from './ogp.js';
 import createDOMPurify from 'dompurify';
 import clsx from 'clsx';
 import { Options } from './plugin.js';

@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest';
 import { remark } from 'remark';
-import remarkLinkBookmark from './plugin.js';
+import { remarkLinkBookmark } from './plugin.js';
 
 test('Input markdown should be expected', async () => {
   const document = `

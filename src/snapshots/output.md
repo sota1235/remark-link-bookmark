@@ -18,6 +18,6 @@
   </div>
 </div>
 
-[example](http://example.com/) is inline link
+[example](https://example.com/) is inline link
 
 [remark-link-card](https://www.npmjs.com/package/remark-link-card) is inline link
