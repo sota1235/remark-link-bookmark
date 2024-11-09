@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
 
       - name: Setting up Node.js
-        uses: .github/actions/setup-node@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
+        uses: ./.github/actions/setup-node
 
       - name: Installing dependencies
         run: pnpm i
