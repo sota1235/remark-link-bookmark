@@ -13,6 +13,12 @@ test('Input markdown should be expected', async () => {
   [example](https://example.com/) is inline link
 
   [remark-link-card](https://www.npmjs.com/package/remark-link-card) is inline link
+  
+  ## 2nd section
+  
+  normal text.
+  
+  https://example.com
   `.trim();
 
   const file = await remark().use(remarkLinkBookmark, {}).process(document);

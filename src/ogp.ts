@@ -1,6 +1,7 @@
 import { ErrorResult, SuccessResult } from 'open-graph-scraper/types/lib/types';
 import ogs from 'open-graph-scraper';
 import * as fs from 'node:fs';
+import { logger } from './logger';
 
 export type OgpInfo = {
   title: string;
@@ -33,7 +34,7 @@ export async function fetchOgpInfo(
     );
     const cache = JSON.parse(cacheData);
     if (cache[url] !== undefined) {
-      console.log(`Cache hit: ${url}`);
+      logger(`Cache hit: ${url}`);
       return cache[url];
     }
   }
@@ -77,7 +78,7 @@ export async function fetchOgpInfo(
       `${cacheFilePath}/${cacheFileName}`,
       JSON.stringify(cache, null, 2),
     );
-    console.log(`Cache updated: ${url}`);
+    logger(`Cache updated: ${url}`);
   }
 
   return result;
