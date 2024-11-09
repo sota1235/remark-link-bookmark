@@ -8,6 +8,8 @@ test('Input markdown should be expected', async () => {
 
   https://example.com
   
+  Not url text.
+  
   [example](https://example.com/) is inline link
 
   [remark-link-card](https://www.npmjs.com/package/remark-link-card) is inline link
