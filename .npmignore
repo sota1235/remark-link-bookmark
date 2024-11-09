@@ -1,7 +1,10 @@
 .github/
 .husky
 src/
-eslint.config.js
+.idea/
+aqua.yaml
+aqua-checksums.json
+eslint.config.mjs
 .gitignore
 .node-version
 .npmignore

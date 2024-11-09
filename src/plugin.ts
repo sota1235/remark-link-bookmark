@@ -1,9 +1,9 @@
 import type { Html, Root } from 'mdast';
 import type { Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
-import { isUrl } from './url';
-import { CacheOption, fetchOgpInfo } from './ogp';
-import { buildBookmarkHtml } from './view';
+import { isUrl } from './url.js';
+import { CacheOption, fetchOgpInfo } from './ogp.js';
+import { buildBookmarkHtml } from './view.js';
 
 export type Options = {
   classPrefix?: string;
@@ -22,7 +22,7 @@ export type Options = {
   cache?: CacheOption;
 };
 
-const remarkLinkBookmark: Plugin<[options: Options], Root> = (
+export const remarkLinkBookmark: Plugin<[options: Options], Root> = (
   options: Options,
 ) => {
   return async (tree: Root) => {
@@ -57,7 +57,7 @@ const remarkLinkBookmark: Plugin<[options: Options], Root> = (
         }
 
         transformers.push(async () => {
-          const ogpInfo = await fetchOgpInfo(text);
+          const ogpInfo = await fetchOgpInfo(text, options.cache ?? {});
           if (ogpInfo === undefined) {
             return;
           }
@@ -76,5 +76,3 @@ const remarkLinkBookmark: Plugin<[options: Options], Root> = (
     await Promise.all(transformers.map((transformer) => transformer()));
   };
 };
-
-export default remarkLinkBookmark;

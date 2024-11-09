@@ -1,6 +1,6 @@
 {
   "name": "@sota1235/remark-link-bookmark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remark plugin to convert link to bookmark component",
   "main": "dist/index.js",
   "type": "module",
@@ -30,7 +30,7 @@
   "scripts": {
     "build": "tsc -p ./tsconfig.publish.json",
     "build:publish": "tsc -p ./tsconfig.publish.json",
-    "watch": "tsc --watch",
+    "watch": "tsc -p ./tsconfig.publish.json --watch",
     "fix": "npm run prettier && npm run eslint:fix",
     "lint": "npm run eslint",
     "eslint": "eslint 'src/**/*.ts'",
