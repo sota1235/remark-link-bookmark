@@ -1,7 +1,7 @@
 import { ErrorResult, SuccessResult } from 'open-graph-scraper/types/lib/types';
 import ogs from 'open-graph-scraper';
 import * as fs from 'node:fs';
-import { logger } from './logger';
+import { logger } from './logger.js';
 
 export type OgpInfo = {
   title: string;

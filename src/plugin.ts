@@ -4,7 +4,7 @@ import { visit } from 'unist-util-visit';
 import { isUrl } from './url.js';
 import { CacheOption, fetchOgpInfo } from './ogp.js';
 import { buildBookmarkHtml } from './view.js';
-import { logger } from './logger';
+import { logger } from './logger.js';
 
 export type Options = {
   classPrefix?: string;
