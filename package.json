@@ -1,6 +1,6 @@
 {
   "name": "@sota1235/remark-link-bookmark",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Remark plugin to convert link to bookmark component",
   "main": "dist/index.js",
   "type": "module",
