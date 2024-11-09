@@ -43,6 +43,7 @@
   "keywords": ["remark"],
   "author": "@sota1235",
   "license": "MIT",
+  "repository": "https://github.com/sota1235/remark-link-bookmark",
   "lint-staged": {
     "*.ts": [
       "npm run fix"
