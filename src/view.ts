@@ -15,12 +15,19 @@ function buildDescriptionHtml(
 
 function buildOgpImageHtml(
   ogImageSrc: string | undefined,
-  ogImageAlt: string | undefined,
+  ogImageAlt: string,
   className: string,
 ): string {
   return ogImageSrc !== undefined
     ? `<img class="${className}" src="${ogImageSrc}" alt="${ogImageAlt}" />`
     : '';
+}
+
+function removeEmptyLines(str: string) {
+  return str
+    .split(/\r?\n/)
+    .filter((line) => line.trim() !== '')
+    .join('\n');
 }
 
 export const buildBookmarkHtml = (
@@ -61,10 +68,14 @@ export const buildBookmarkHtml = (
     `${classPrefix}-favicon`,
     mergeClassNames?.favicon,
   );
+  const footerLinkTextClassName = clsx(
+    `${classPrefix}-footer-link-text`,
+    mergeClassNames?.favicon,
+  );
 
   // create output HTML
-  return dompurify
-    .sanitize(
+  return removeEmptyLines(
+    dompurify.sanitize(
       `
 <div class="${containerClassName}">
   <div class="${contentClassName}">
@@ -78,8 +89,10 @@ export const buildBookmarkHtml = (
         >
           ${title}
         </a>
-      </h2>${buildDescriptionHtml(description, descriptionClassName)}
-    </div>${buildOgpImageHtml(ogImageSrc, ogImageAlt, imageClassName)}
+      </h2>
+      ${buildDescriptionHtml(description, descriptionClassName)}
+    </div>
+    ${buildOgpImageHtml(ogImageSrc, ogImageAlt ?? url, imageClassName)}
   </div>
   <div class="${footerClassName}">
     <a
@@ -89,11 +102,11 @@ export const buildBookmarkHtml = (
       rel="noopener noreferrer"
     >
       <img class="${faviconImageClassName}" src="${faviconSrc}" alt="${host}" />
-      ${host}
+      <span class="${footerLinkTextClassName}">${host}</span>
     </a>
   </div>
 </div>
 `,
-    )
-    .trim();
+    ),
+  ).trim();
 };
