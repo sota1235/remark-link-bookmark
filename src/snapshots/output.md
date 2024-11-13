@@ -13,7 +13,7 @@
   <div class="rlb-footer">
     <a rel="noopener noreferrer" href="https://example.com" class="rlb-footer-link">
       <img alt="example.com" src="https://www.google.com/s2/favicons?domain=https://example.com" class="rlb-favicon">
-      example.com
+      <span class="rlb-footer-link-text">example.com</span>
     </a>
   </div>
 </div>
@@ -41,7 +41,7 @@ normal text.
   <div class="rlb-footer">
     <a rel="noopener noreferrer" href="https://example.com" class="rlb-footer-link">
       <img alt="example.com" src="https://www.google.com/s2/favicons?domain=https://example.com" class="rlb-favicon">
-      example.com
+      <span class="rlb-footer-link-text">example.com</span>
     </a>
   </div>
 </div>
