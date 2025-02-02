@@ -41,6 +41,7 @@
     "prettier": "prettier './src/**/*.ts' --write",
     "test": "vitest",
     "test:ci": "vitest",
+    "update-checksum": "aqua update-checksum -prune",
     "prepare": "husky"
   },
   "keywords": [
