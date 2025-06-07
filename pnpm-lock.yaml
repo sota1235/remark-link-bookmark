@@ -24,8 +24,8 @@ importers:
         specifier: 25.0.1
         version: 25.0.1
       open-graph-scraper:
-        specifier: 6.8.4
-        version: 6.8.4
+        specifier: 6.10.0
+        version: 6.10.0
       typescript:
         specifier: ^5.0.0
         version: 5.6.3
@@ -769,8 +769,8 @@ packages:
   character-entities@2.0.2:
     resolution: {integrity: sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==}
 
-  chardet@2.0.0:
-    resolution: {integrity: sha512-xVgPpulCooDjY6zH4m9YW3jbkaBe3FKIAvF5sj5t7aBNsVl2ljIE+xwJ4iNgiDZHFQvNIpjdKdVOQvvk5ZfxbQ==}
+  chardet@2.1.0:
+    resolution: {integrity: sha512-bNFETTG/pM5ryzQ9Ad0lJOTa6HWD/YsScAR3EnCPZRPlQh77JocYktSHOUHelyhm8IARL+o4c4F1bP5KVOjiRA==}
 
   check-error@2.1.1:
     resolution: {integrity: sha512-OAlb+T7V4Op9OwdkjmguYRqncdlx5JiofwOAUkmTF+jNdHwzTaTs4sRAGpzLF3oOz5xAyDGrPgeIDFQmDOTiJw==}
@@ -1790,8 +1790,8 @@ packages:
     resolution: {integrity: sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==}
     engines: {node: '>=18'}
 
-  open-graph-scraper@6.8.4:
-    resolution: {integrity: sha512-AIhZi5DaQGFY+Kbz6U8ORNw0ZW7ZTS76k8++a/BlMmzZ6FEHNDhVfVBqed5GZ4ery9sHd1OXoNcjgyxoNzIZkg==}
+  open-graph-scraper@6.10.0:
+    resolution: {integrity: sha512-JTuaO/mWUPduYCIQvunmsQnfGpSRFUTEh4k5cW2KOafJxTm3Z99z25/c1oO9QnIh2DK7ol5plJAq3EUVy+5xyw==}
     engines: {node: '>=18.0.0'}
 
   optionator@0.9.3:
@@ -2279,8 +2279,8 @@ packages:
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
-  undici@6.21.1:
-    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
+  undici@6.21.3:
+    resolution: {integrity: sha512-gBLkYIlEnSp8pFbT64yFgGE6UIB9tAkhukC23PmMDCe5Nd+cRqKxSjw5y54MK2AZMgZfJWMaNE4nYUHgi1XEOw==}
     engines: {node: '>=18.17'}
 
   unified@11.0.5:
@@ -3191,7 +3191,7 @@ snapshots:
 
   character-entities@2.0.2: {}
 
-  chardet@2.0.0: {}
+  chardet@2.1.0: {}
 
   check-error@2.1.1: {}
 
@@ -3215,7 +3215,7 @@ snapshots:
       parse5: 7.2.1
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 6.21.1
+      undici: 6.21.3
       whatwg-mimetype: 4.0.0
 
   chrome-trace-event@1.0.4: {}
@@ -4539,12 +4539,12 @@ snapshots:
     dependencies:
       mimic-function: 5.0.1
 
-  open-graph-scraper@6.8.4:
+  open-graph-scraper@6.10.0:
     dependencies:
-      chardet: 2.0.0
+      chardet: 2.1.0
       cheerio: 1.0.0
       iconv-lite: 0.6.3
-      undici: 6.21.1
+      undici: 6.21.3
 
   optionator@0.9.3:
     dependencies:
@@ -5147,7 +5147,7 @@ snapshots:
 
   undici-types@6.20.0: {}
 
-  undici@6.21.1: {}
+  undici@6.21.3: {}
 
   unified@11.0.5:
     dependencies:
