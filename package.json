@@ -23,7 +23,7 @@
     "@types/node": "25",
     "eslint": "9.39.2",
     "husky": "9.1.7",
-    "lint-staged": "15.5.2",
+    "lint-staged": "16.2.7",
     "prettier": "3.8.0",
     "remark": "15.0.1",
     "ts-loader": "9.5.4",
