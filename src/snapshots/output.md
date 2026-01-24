@@ -4,15 +4,15 @@
   <div class="rlb-content">
     <div class="rlb-info">
       <h2 class="rlb-title">
-        <a rel="noopener noreferrer" href="https://example.com" class="rlb-title-link">
+        <a class="rlb-title-link" href="https://example.com" rel="noopener noreferrer">
           Example Domain
         </a>
       </h2>
     </div>
   </div>
   <div class="rlb-footer">
-    <a rel="noopener noreferrer" href="https://example.com" class="rlb-footer-link">
-      <img alt="example.com" src="https://www.google.com/s2/favicons?domain=https://example.com" class="rlb-favicon">
+    <a class="rlb-footer-link" href="https://example.com" rel="noopener noreferrer">
+      <img class="rlb-favicon" src="https://www.google.com/s2/favicons?domain=https://example.com" alt="example.com">
       <span class="rlb-footer-link-text">example.com</span>
     </a>
   </div>
@@ -32,15 +32,15 @@ normal text.
   <div class="rlb-content">
     <div class="rlb-info">
       <h2 class="rlb-title">
-        <a rel="noopener noreferrer" href="https://example.com" class="rlb-title-link">
+        <a class="rlb-title-link" href="https://example.com" rel="noopener noreferrer">
           Example Domain
         </a>
       </h2>
     </div>
   </div>
   <div class="rlb-footer">
-    <a rel="noopener noreferrer" href="https://example.com" class="rlb-footer-link">
-      <img alt="example.com" src="https://www.google.com/s2/favicons?domain=https://example.com" class="rlb-favicon">
+    <a class="rlb-footer-link" href="https://example.com" rel="noopener noreferrer">
+      <img class="rlb-favicon" src="https://www.google.com/s2/favicons?domain=https://example.com" alt="example.com">
       <span class="rlb-footer-link-text">example.com</span>
     </a>
   </div>
