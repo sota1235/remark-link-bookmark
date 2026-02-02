@@ -13,7 +13,7 @@
     "open-graph-scraper": "6.11.0",
     "typescript": "^5.0.0",
     "unified": "11.0.5",
-    "unist-util-visit": "5.0.0"
+    "unist-util-visit": "5.1.0"
   },
   "devDependencies": {
     "@sota1235/eslint-config": "5.0.5",
