@@ -1,6 +1,17 @@
-import { expect, test } from 'vitest';
+import { expect, test, vi } from 'vitest';
 import { remark } from 'remark';
 import { remarkLinkBookmark } from './plugin.js';
+
+vi.mock('./ogp.js', () => ({
+  fetchOgpInfo: vi.fn().mockResolvedValue({
+    title: 'Example Domain',
+    description: undefined,
+    faviconSrc: 'https://www.google.com/s2/favicons?domain=https://example.com',
+    ogImageSrc: undefined,
+    ogImageAlt: undefined,
+    url: 'https://example.com',
+  }),
+}));
 
 test('Input markdown should be expected', async () => {
   const document = `
