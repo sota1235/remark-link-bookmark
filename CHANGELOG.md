@@ -1,0 +1,278 @@
+# Changelog
+
+## [v0.0.7](https://github.com/sota1235/remark-link-bookmark/commits/v0.0.7) - 2026-03-08
+### Dependencies
+- chore(deps): update songmu/tagpr action to v1.17.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/299
+### Others
+- v0.0.2 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/8
+- fix way to use composite action by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/9
+- chore(deps): update dependency aquaproj/aqua-registry to v4.249.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/7
+- chore(deps): update actions/setup-node action to v4.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/6
+- chore(deps): update actions/checkout action to v4.2.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/5
+- chore(deps): update dependency rhysd/actionlint to v1.7.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/4
+- add repository field on package.json by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/10
+- fix publish workflow by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/11
+- fix error for URL validation by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/12
+- v0.0.4 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/13
+- v0.0.6 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/14
+- bump up to 0.0.8 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/15
+- fix build error by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/16
+- chore(deps): update aquaproj/aqua-installer action to v3.0.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/19
+- build(deps): bump cross-spawn from 7.0.3 to 7.0.5 by @dependabot[bot] in https://github.com/sota1235/remark-link-bookmark/pull/20
+- build(deps): bump @eslint/plugin-kit from 0.2.2 to 0.2.3 by @dependabot[bot] in https://github.com/sota1235/remark-link-bookmark/pull/18
+- chore(deps): update dependency aquaproj/aqua-registry to v4.254.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/17
+- build(deps): bump nanoid from 3.3.7 to 3.3.8 by @dependabot[bot] in https://github.com/sota1235/remark-link-bookmark/pull/27
+- chore(deps): update node.js to v22.12.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/25
+- chore(deps): update aquaproj/aqua-installer action to v3.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/21
+- chore(deps): update dependency aquaproj/aqua-registry to v4.294.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/23
+- chore(deps): update dependency aquaproj/aqua-renovate-config to v2.6.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/24
+- chore(deps): update dependency aquaproj/aqua to v2.42.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/22
+- chore(deps): update dependency aquaproj/aqua-registry to v4.294.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/29
+- chore(deps): update node.js to v22.13.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/30
+- chore(deps): update dependency aquaproj/aqua-registry to v4.295.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/31
+- chore(deps): update dependency aquaproj/aqua-registry to v4.297.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/32
+- chore(deps): update aquaproj/aqua-installer action to v3.1.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/33
+- chore(deps): update node.js to v22.13.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/34
+- chore(deps): update dependency aquaproj/aqua-registry to v4.300.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/35
+- chore(deps): update dependency aquaproj/aqua-registry to v4.300.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/37
+- chore(deps): update actions/setup-node action to v4.2.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/38
+- chore(deps): update dependency aquaproj/aqua-registry to v4.305.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/39
+- chore(deps): update dependency suzuki-shunsuke/ghalint to v1.2.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/26
+- chore(deps): update dependency rhysd/actionlint to v1.7.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/28
+- chore(deps): update dependency aquaproj/aqua to v2.43.0 - autoclosed by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/36
+- chore(deps): update dependency vitest to v2.1.9 [security] by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/40
+- chore(deps): update dependency aquaproj/aqua to v2.43.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/41
+- chore(deps): update dependency aquaproj/aqua-registry to v4.308.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/43
+- chore(deps): update pnpm/action-setup action to v4.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/45
+- chore(deps): update dependency aquaproj/aqua-registry to v4.313.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/48
+- chore(deps): update node.js to v22.14.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/49
+- chore(deps): update dependency aquaproj/aqua-registry to v4.314.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/51
+- chore(deps): update dependency aquaproj/aqua-registry to v4.319.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/52
+- chore(deps): update dependency aquaproj/aqua-registry to v4.319.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/53
+- chore(deps): update dependency aquaproj/aqua-renovate-config to v2.7.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/44
+- chore(deps): update dependency aquaproj/aqua-registry to v4.319.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/54
+- chore(deps): update dependency aquaproj/aqua-registry to v4.322.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/55
+- chore(deps): update dependency aquaproj/aqua-registry to v4.324.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/56
+- chore(deps): update dependency aquaproj/aqua-registry to v4.324.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/57
+- chore(deps): update dependency aquaproj/aqua-registry to v4.325.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/58
+- chore(deps): update dependency aquaproj/aqua-registry to v4.326.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/59
+- chore(deps): update dependency aquaproj/aqua-registry to v4.327.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/60
+- chore(deps): update actions/setup-node action to v4.3.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/61
+- chore(deps): update dependency aquaproj/aqua-registry to v4.331.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/62
+- chore(deps): update dependency aquaproj/aqua-registry to v4.331.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/64
+- chore(deps): update dependency aquaproj/aqua-registry to v4.333.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/65
+- chore(deps): update dependency aquaproj/aqua-registry to v4.333.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/67
+- chore(deps): update dependency aquaproj/aqua-registry to v4.333.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/68
+- chore(deps): update dependency aquaproj/aqua-registry to v4.338.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/69
+- chore(deps): update dependency aquaproj/aqua-registry to v4.339.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/70
+- chore(deps): update aquaproj/aqua-installer action to v3.1.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/71
+- chore(deps): update dependency aquaproj/aqua-registry to v4.345.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/72
+- chore(deps): update actions/setup-node action to v4.4.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/73
+- chore(deps): update dependency aquaproj/aqua-registry to v4.347.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/74
+- chore(deps): update dependency aquaproj/aqua-registry to v4.347.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/75
+- chore(deps): update dependency aquaproj/aqua-registry to v4.353.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/76
+- chore(deps): update node.js to v22.15.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/77
+- chore(deps): update dependency aquaproj/aqua-registry to v4.358.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/78
+- chore(deps): update dependency aquaproj/aqua-registry to v4.359.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/79
+- chore(deps): update dependency aquaproj/aqua-registry to v4.364.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/80
+- chore(deps): update node.js to v22.15.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/81
+- chore(deps): update dependency aquaproj/aqua-registry to v4.367.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/82
+- chore(deps): update node.js to v22.16.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/85
+- chore(deps): update dependency aquaproj/aqua-registry to v4.374.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/84
+- chore(deps): update dependency husky to v9.1.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/88
+- chore(deps): update dependency typescript-eslint to v8.33.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/101
+- chore(deps): update dependency prettier to v3.5.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/99
+- chore(deps): update dependency aquaproj/aqua to v2.51.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/47
+- build(deps): bump dompurify from 3.1.7 to 3.2.4 by @dependabot[bot] in https://github.com/sota1235/remark-link-bookmark/pull/63
+- chore(deps): update dependency aquaproj/aqua-renovate-config to v2.8.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/83
+- chore(deps): update dependency aquaproj/aqua-registry to v4.376.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/94
+- chore(deps): update dependency @types/dompurify to v3.2.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/92
+- chore(deps): update dependency open-graph-scraper to v6.8.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/90
+- chore(deps): update dependency @sota1235/eslint-config to v5.0.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/86
+- chore(deps): update dependency lint-staged to v15.2.11 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/89
+- chore(deps): update dependency ts-loader to v9.5.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/91
+- chore(deps): update dependency eslint to v9.28.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/96
+- chore(deps): update dependency lint-staged to v15.5.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/97
+- chore(deps): update dependency open-graph-scraper to v6.10.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/98
+- chore(deps): update dependency debug to v4.4.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/95
+- chore(deps): update dependency suzuki-shunsuke/ghalint to v1.4.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/66
+- chore(deps): update dependency aquaproj/aqua-registry to v4.376.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/103
+- chore(deps): update dependency typescript-eslint to v8.34.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/106
+- chore(deps): update dependency aquaproj/aqua-registry to v4.379.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/105
+- chore(deps): update dependency aquaproj/aqua-renovate-config to v2.8.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/107
+- chore(deps): update dependency typescript-eslint to v8.34.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/108
+- chore(deps): update dependency aquaproj/aqua-registry to v4.379.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/111
+- chore(deps): update node.js to v22.17.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/115
+- chore(deps): update dependency aquaproj/aqua-registry to v4.386.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/112
+- chore(deps): update dependency eslint to v9.30.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/109
+- chore(deps): update dependency prettier to v3.6.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/113
+- chore(deps): update dependency typescript-eslint to v8.36.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/114
+- chore(deps): update dependency @types/node to v24 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/118
+- chore(deps): update dependency vitest to v3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/121
+- chore(deps): update node.js to v22.17.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/124
+- chore(deps): update dependency aquaproj/aqua-registry to v4.387.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/125
+- chore(deps): update dependency eslint to v9.31.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/126
+- chore(deps): update dependency aquaproj/aqua-registry to v4.388.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/128
+- chore(deps): update dependency typescript-eslint to v8.37.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/127
+- chore(deps): update dependency aquaproj/aqua-registry to v4.389.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/129
+- chore(deps): update dependency typescript-eslint to v8.38.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/132
+- chore(deps): update dependency aquaproj/aqua-registry to v4.393.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/131
+- chore(deps): update dependency aquaproj/aqua-registry to v4.398.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/133
+- chore(deps): update dependency eslint to v9.32.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/134
+- chore(deps): update node.js to v22.18.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/136
+- chore(deps): update dependency typescript-eslint to v8.39.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/135
+- chore(deps): update dependency aquaproj/aqua-registry to v4.399.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/137
+- chore(deps): update dependency typescript-eslint to v8.39.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/138
+- chore(deps): update actions/checkout action to v4.3.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/139
+- chore(deps): update dependency aquaproj/aqua-registry to v4.403.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/140
+- chore(deps): update dependency eslint to v9.33.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/141
+- chore(deps): update dependency aquaproj/aqua-registry to v4.404.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/143
+- chore(deps): update dependency typescript-eslint to v8.40.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/144
+- chore(deps): update dependency ts-loader to v9.5.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/145
+- chore(deps): update node.js to v22.19.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/149
+- chore(deps): update dependency aquaproj/aqua-registry to v4.407.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/146
+- chore(deps): update dependency eslint to v9.34.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/147
+- chore(deps): update dependency typescript-eslint to v8.41.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/148
+- chore(deps): update dependency aquaproj/aqua-registry to v4.407.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/151
+- chore(deps): update dependency typescript-eslint to v8.42.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/153
+- chore(deps): update dependency aquaproj/aqua-registry to v4.408.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/152
+- chore(deps): update dependency aquaproj/aqua-registry to v4.411.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/155
+- chore(deps): update dependency eslint to v9.35.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/156
+- chore(deps): update dependency typescript-eslint to v8.43.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/157
+- chore(deps): update dependency aquaproj/aqua-registry to v4.411.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/158
+- chore(deps): update dependency debug to v4.4.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/160
+- chore(deps): update dependency aquaproj/aqua-registry to v4.413.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/161
+- chore(deps): update dependency typescript-eslint to v8.44.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/162
+- chore(deps): update dependency typescript-eslint to v8.44.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/164
+- chore(deps): update dependency aquaproj/aqua-registry to v4.417.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/165
+- chore(deps): update node.js to v22.20.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/167
+- chore(deps): update dependency eslint to v9.36.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/166
+- chore(deps): update dependency aquaproj/aqua-registry to v4.418.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/168
+- chore(deps): update dependency aquaproj/aqua-registry to v4.419.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/170
+- chore(deps): update dependency typescript-eslint to v8.45.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/171
+- chore(deps): update dependency aquaproj/aqua-registry to v4.421.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/172
+- chore(deps): update dependency aquaproj/aqua-registry to v4.426.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/173
+- chore(deps): update dependency eslint to v9.37.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/174
+- chore(deps): update pnpm/action-setup action to v4.2.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/176
+- chore(deps): update dependency typescript-eslint to v8.46.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/175
+- chore(deps): update dependency aquaproj/aqua-registry to v4.427.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/178
+- chore(deps): update dependency typescript-eslint to v8.46.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/179
+- chore(deps): update dependency aquaproj/aqua-registry to v4.428.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/182
+- chore(deps): update dependency typescript-eslint to v8.46.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/183
+- chore(deps): update dependency aquaproj/aqua-registry to v4.430.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/184
+- chore(deps): update node.js to v22.21.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/186
+- chore(deps): update dependency eslint to v9.38.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/185
+- chore(deps): update dependency vitest to v4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/187
+- chore(deps): update dependency aquaproj/aqua-registry to v4.430.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/188
+- chore(deps): update node.js to v22.21.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/190
+- chore(deps): update dependency aquaproj/aqua-registry to v4.432.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/191
+- chore(deps): update dependency vitest to v4.0.6 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/189
+- chore(deps): update dependency @types/node to v24.0.15 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/123
+- chore(deps): update dependency @types/node to v24.9.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/130
+- chore(deps): update dependency typescript-eslint to v8.46.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/193
+- chore(deps): update dependency @types/node to v24.10.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/194
+- chore(deps): update dependency aquaproj/aqua-registry to v4.433.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/195
+- chore(deps): update dependency vitest to v4.0.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/197
+- chore(deps): update dependency eslint to v9.39.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/196
+- chore(deps): update dependency aquaproj/aqua-registry to v4.435.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/198
+- chore(deps): update actions/checkout action to v4.3.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/199
+- chore(deps): update dependency aquaproj/aqua-registry to v4.438.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/200
+- chore(deps): update dependency aquaproj/aqua-registry to v4.439.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/202
+- chore(deps): update dependency @types/node to v24.10.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/203
+- chore(deps): update dependency typescript-eslint to v8.46.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/204
+- chore(deps): update dependency aquaproj/aqua-registry to v4.442.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/206
+- chore(deps): update dependency vitest to v4.0.14 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/205
+- chore(deps): update dependency typescript-eslint to v8.48.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/207
+- chore(deps): update dependency prettier to v3.7.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/209
+- chore(deps): update dependency aquaproj/aqua-registry to v4.442.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/210
+- chore(deps): update dependency prettier to v3.7.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/211
+- chore(deps): update dependency typescript-eslint to v8.48.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/212
+- chore(deps): update dependency vitest to v4.0.15 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/213
+- chore(deps): update dependency aquaproj/aqua-registry to v4.444.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/214
+- chore(deps): update dependency prettier to v3.7.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/215
+- chore(deps): update dependency @types/node to v24.10.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/216
+- chore(deps): update dependency aquaproj/aqua-registry to v4.444.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/217
+- chore(deps): update dependency typescript-eslint to v8.49.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/219
+- chore(deps): update dependency aquaproj/aqua-registry to v4.445.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/218
+- chore(deps): update dependency @types/node to v24.10.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/220
+- chore(deps): update dependency @types/node to v25 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/221
+- chore(deps): update dependency aquaproj/aqua-registry to v4.446.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/222
+- chore(deps): update dependency eslint to v9.39.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/223
+- chore(deps): update dependency vitest to v4.0.16 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/224
+- chore(deps): update dependency @types/node to v25.0.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/226
+- chore(deps): update dependency typescript-eslint to v8.50.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/225
+- chore(deps): update dependency typescript-eslint to v8.50.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/227
+- chore(deps): update dependency aquaproj/aqua-registry to v4.448.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/228
+- chore(deps): update dependency aquaproj/aqua-registry to v4.448.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/229
+- chore(deps): update dependency aquaproj/aqua-registry to v4.451.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/230
+- chore(deps): update dependency typescript-eslint to v8.51.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/231
+- chore(deps): update dependency aquaproj/aqua-registry to v4.451.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/232
+- chore(deps): update dependency aquaproj/aqua-registry to v4.453.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/233
+- chore(deps): update dependency typescript-eslint to v8.52.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/234
+- chore(deps): update dependency aquaproj/aqua-registry to v4.454.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/235
+- chore(deps): update pnpm to v10 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/122
+- chore(deps): update actions/checkout action to v6 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/201
+- chore(deps): update dependency open-graph-scraper to v6.11.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/208
+- chore(deps): update actions/setup-node action to v6 - autoclosed by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/181
+- chore(deps): update dependency aquaproj/aqua-renovate-config to v2.9.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/159
+- chore(deps): update aquaproj/aqua-installer action to v4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/117
+- chore(deps): update dependency typescript to v5.9.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/100
+- chore(deps): update dependency aquaproj/aqua to v2.56.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/104
+- chore(deps): update dependency @types/node to v25.0.8 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/236
+- chore(deps): update dependency aquaproj/aqua-registry to v4.455.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/238
+- chore(deps): update dependency vitest to v4.0.17 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/237
+- chore(deps): update dependency typescript-eslint to v8.53.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/239
+- chore(deps): update dependency aquaproj/aqua-registry to v4.456.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/241
+- chore(deps): update node.js to v22.22.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/240
+- chore(deps): update dependency prettier to v3.8.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/242
+- chore(deps): update dependency aquaproj/aqua to v2.56.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/243
+- chore(deps): update dependency aquaproj/aqua-registry to v4.457.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/244
+- chore(deps): update actions/checkout action to v6.0.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/245
+- chore(deps): update dependency @types/node to v25.0.9 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/246
+- chore(deps): update dependency aquaproj/aqua to v2.56.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/247
+- chore(deps): update dependency typescript-eslint to v8.53.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/248
+- chore(deps): update dependency aquaproj/aqua-registry to v4.462.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/250
+- chore(deps): update pnpm to v10.28.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/249
+- chore(deps): update dependency aquaproj/aqua-registry to v4.463.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/252
+- chore(deps): update dependency aquaproj/aqua-renovate-config to v2.10.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/251
+- chore(deps): update node.js to v24 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/192
+- chore(deps): update dependency jsdom to v27 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/163
+- chore(deps): update dependency lint-staged to v16 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/120
+- chore(deps): update dependency suzuki-shunsuke/ghalint to v1.5.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/110
+- chore(deps): update dependency dompurify to v3.3.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/180
+- chore(deps): update dependency rhysd/actionlint to v1.7.10 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/177
+- chore(deps): update dependency prettier to v3.8.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/253
+- chore(deps): update dependency @types/node to v25.0.10 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/254
+- chore(deps): update dependency vitest to v4.0.18 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/255
+- chore(deps): update pnpm to v10.28.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/256
+- chore(deps): update dependency aquaproj/aqua-registry to v4.464.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/257
+- chore(deps): update dependency typescript-eslint to v8.54.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/258
+- chore(deps): update dependency @types/node to v25.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/260
+- chore(deps): update dependency unist-util-visit to v5.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/259
+- chore(deps): update dependency aquaproj/aqua to v2.56.6 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/261
+- chore(deps): update dependency @types/node to v25.2.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/262
+- chore(deps): update dependency aquaproj/aqua-registry to v4.467.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/263
+- chore(deps): update dependency jsdom to v28 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/264
+- chore(deps): update dependency @types/node to v25.2.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/265
+- chore(deps): update node.js to v24.13.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/266
+- chore(deps): update dependency typescript-eslint to v8.55.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/268
+- fix: テストでOGP取得をモック化しCI環境でのSSLエラーを修正 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/278
+- fix: Dependabot alertsの脆弱な間接依存を修正 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/279
+- chore(deps): update dependency minimatch@&gt;&#x3d;3.0.0 &lt;3.1.3 to v3.1.4 [security] by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/280
+- chore(deps): update dependency @types/node to v25.3.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/274
+- chore(deps): update dependency minimatch@&gt;&#x3d;3.0.0 &lt;3.1.3 to v3.1.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/287
+- chore(deps): update dependency minimatch@&gt;&#x3d;9.0.0 &lt;9.0.7 to v9.0.8 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/281
+- chore(deps): update dependency eslint to v10 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/270
+- chore(deps): update dependency typescript-eslint to v8.56.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/273
+- chore: npm依存パッケージを最新バージョンにアップデート by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/286
+- chore(deps): update pnpm to v10.30.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/269
+- chore(deps): update node.js to v24.14.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/277
+- chore(deps): update dependency aquaproj/aqua-registry to v4.476.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/267
+- chore(deps): update dependency dompurify to v3.3.2 [security] by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/289
+- chore(deps): update dependency @types/node to v25.3.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/290
+- chore(deps): update actions/setup-node action to v6.3.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/291
+- chore(deps): update dependency lint-staged to v16.3.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/293
+- chore(deps): update dependency aquaproj/aqua-registry to v4.477.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/292
+- chore(deps): update dependency aquaproj/aqua-registry to v4.478.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/294
+- npm publishのトリガーをタグベースに変更し、provenance対応を追加 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/297
+- tagprによる自動リリースの仕組みを追加 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/298
