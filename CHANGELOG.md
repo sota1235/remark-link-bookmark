@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.0.8](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.7...v0.0.8) - 2026-03-08
+### Dependencies
+- chore(deps): update dependency aquaproj/aqua-renovate-config to v2.11.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/296
+
 ## [v0.0.7](https://github.com/sota1235/remark-link-bookmark/commits/v0.0.7) - 2026-03-08
 ### Dependencies
 - chore(deps): update songmu/tagpr action to v1.17.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/299
