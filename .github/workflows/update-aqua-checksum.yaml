@@ -43,6 +43,7 @@ jobs:
         with:
           prune: true
           skip_push: ${{ github.event.pull_request.head.repo.fork }}
+          github_token: ${{ steps.octo-sts.outputs.token }}
         env:
           GITHUB_TOKEN: ${{ steps.octo-sts.outputs.token }}
           AQUA_GITHUB_TOKEN: ${{ steps.octo-sts.outputs.token || github.token }}
