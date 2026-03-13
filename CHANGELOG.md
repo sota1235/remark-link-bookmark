@@ -1,5 +1,20 @@
 # Changelog
 
+## [v0.0.9](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.8...v0.0.9) - 2026-03-13
+### Dependencies
+- chore(deps): update dependency aquaproj/aqua-registry to v4.479.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/303
+- chore(deps): update dependency aquaproj/aqua to v2.56.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/275
+- chore(deps): update dependency rhysd/actionlint to v1.7.11 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/271
+- chore(deps): update dependency @types/node to v25.3.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/307
+- chore(deps): update dependency eslint to v10.0.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/308
+- chore(deps): update dependency lint-staged to v16.3.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/309
+- chore(deps): update pnpm/action-setup action to v4.4.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/315
+- chore(deps): update dependency @types/node to v25.4.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/310
+- chore(deps): update dependency typescript-eslint to v8.57.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/313
+### Others
+- add: aqua checksumの自動更新ワークフローを追加 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/305
+- fix: update-aqua-checksum workflowのトークン渡し方を修正 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/306
+
 ## [v0.0.8](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.7...v0.0.8) - 2026-03-08
 ### Dependencies
 - chore(deps): update dependency aquaproj/aqua-renovate-config to v2.11.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/296
