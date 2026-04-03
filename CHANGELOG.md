@@ -1,5 +1,39 @@
 # Changelog
 
+## [v0.0.9](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.8...v0.0.9) - 2026-04-03
+### Dependencies
+- chore(deps): update dependency aquaproj/aqua-registry to v4.479.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/303
+- chore(deps): update dependency aquaproj/aqua to v2.56.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/275
+- chore(deps): update dependency rhysd/actionlint to v1.7.11 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/271
+- chore(deps): update dependency @types/node to v25.3.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/307
+- chore(deps): update dependency eslint to v10.0.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/308
+- chore(deps): update dependency lint-staged to v16.3.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/309
+- chore(deps): update pnpm/action-setup action to v4.4.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/315
+- chore(deps): update dependency @types/node to v25.4.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/310
+- chore(deps): update dependency typescript-eslint to v8.57.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/313
+- chore(deps): update pnpm to v10.32.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/314
+- chore(deps): update dependency aquaproj/aqua-registry to v4.483.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/312
+- chore(deps): update dependency aquaproj/aqua to v2.57.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/311
+- chore(deps): update dependency aquaproj/aqua-registry to v4.484.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/317
+- chore(deps): update dependency aquaproj/aqua-registry to v4.485.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/318
+- chore(deps): update dependency vitest to v4.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/319
+- chore(deps): update dependency @types/debug to v4.1.13 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/320
+- chore(deps): update dependency aquaproj/aqua to v2.57.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/322
+- chore(deps): update dependency @types/jsdom to v28.0.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/321
+- chore(deps): update dependency lint-staged to v16.3.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/323
+- chore(deps): update dependency typescript-eslint to v8.57.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/325
+- chore(deps): update node.js to v24.14.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/327
+- chore(deps): update dependency vitest to v4.1.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/326
+- chore(deps): update dependency @types/node to v25.5.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/328
+- chore(deps): update dependency eslint to v10.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/331
+- chore(deps): update dependency lint-staged to v16.4.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/332
+- chore(deps): update dependency typescript-eslint to v8.58.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/333
+- chore(deps): update pnpm to v10.33.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/334
+### Others
+- add: aqua checksumの自動更新ワークフローを追加 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/305
+- fix: update-aqua-checksum workflowのトークン渡し方を修正 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/306
+- chore(deps): update dependency dompurify to v3.3.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/316
+
 ## [v0.0.8](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.7...v0.0.8) - 2026-03-08
 ### Dependencies
 - chore(deps): update dependency aquaproj/aqua-renovate-config to v2.11.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/296
