@@ -1,4 +1,4 @@
-import { ErrorResult, SuccessResult } from 'open-graph-scraper/types/lib/types';
+import { ErrorResult, SuccessResult } from 'open-graph-scraper/types';
 import ogs from 'open-graph-scraper';
 import * as fs from 'node:fs';
 import { logger } from './logger.js';
