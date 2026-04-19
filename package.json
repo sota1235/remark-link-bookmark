@@ -3,6 +3,9 @@
   "version": "0.0.9",
   "description": "Remark plugin to convert link to bookmark component",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "dependencies": {
     "@types/mdast": "4.0.4",
