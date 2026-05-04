@@ -1,5 +1,37 @@
 # Changelog
 
+## [v0.0.10](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.9...v0.0.10) - 2026-05-04
+### Dependencies
+- chore(deps): update dependency @types/node to v25.5.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/341
+- chore(deps): update songmu/tagpr action to v1.18.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/344
+- chore(deps): update dependency jsdom to v29.0.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/342
+- chore(deps): update dependency eslint to v10.2.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/345
+- chore(deps): update dependency vitest to v4.1.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/343
+- chore(deps): update dependency vitest to v4.1.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/349
+- chore(deps): update songmu/tagpr action to v1.18.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/350
+- chore(deps): update dependency prettier to v3.8.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/353
+- chore(deps): update dependency typescript-eslint to v8.58.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/354
+- chore(deps): update songmu/tagpr action to v1.18.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/355
+- chore(deps): update node.js to v24.15.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/358
+- chore(deps): update dependency @types/node to v25.6.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/356
+- chore(deps): update pnpm/action-setup action to v6 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/347
+- chore(deps): update dependency aquaproj/aqua-registry to v4.495.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/357
+- chore(deps): update dependency eslint to v10.2.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/362
+- chore(deps): update dependency vitest to v4.1.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/364
+- chore(deps): update dependency dompurify to v3.4.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/369
+- chore(deps): update dependency typescript to v6.0.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/363
+- chore(deps): update dependency typescript-eslint to v8.59.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/368
+- chore(deps): update pnpm to v10.33.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/370
+- chore(deps): update pnpm to v10.33.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/373
+- chore(deps): update dependency typescript-eslint to v8.59.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/375
+- chore(deps): update dependency jsdom to v29.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/378
+- chore(deps): update dependency jsdom to v29.1.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/382
+### Others
+- chore(deps): update dependency typescript-eslint to v8.58.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/348
+- build(deps): Bump dompurify from 3.3.3 to 3.4.0 by @dependabot[bot] in https://github.com/sota1235/remark-link-bookmark/pull/351
+- chore(deps): update dependency prettier to v3.8.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/359
+- package.jsonにfilesフィールドを追加 by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/361
+
 ## [v0.0.9](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.8...v0.0.9) - 2026-04-05
 ### Dependencies
 - chore(deps): update dependency aquaproj/aqua-registry to v4.479.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/303
