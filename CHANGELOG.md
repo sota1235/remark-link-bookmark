@@ -1,5 +1,34 @@
 # Changelog
 
+## [v0.0.11](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.10...v0.0.11) - 2026-06-02
+### Dependencies
+- chore(deps): update dependency dompurify to v3.4.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/383
+- chore(deps): update dependency typescript-eslint to v8.59.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/384
+- chore(deps): update pnpm to v10.33.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/385
+- chore(deps): update dependency eslint to v10.3.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/389
+- chore(deps): update pnpm to v10.33.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/395
+- chore(deps): update dependency @types/node to v25.6.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/398
+- chore(deps): update dependency typescript-eslint to v8.59.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/399
+- chore(deps): update dependency @types/jsdom to v28.0.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/397
+- chore(deps): update dependency vitest to v4.1.6 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/400
+- chore(deps): update dependency @types/node to v25.7.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/402
+- chore(deps): update dependency dompurify to v3.4.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/404
+- chore(deps): update dependency lint-staged to v17 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/394
+- chore(deps): update dependency dompurify to v3.4.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/408
+- chore(deps): update dependency typescript-eslint to v8.59.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/409
+- chore(deps): update dependency @types/node to v25.9.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/410
+- chore(deps): update dependency eslint to v10.4.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/412
+- chore(deps): update dependency vitest to v4.1.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/414
+- chore(deps): update dependency dompurify to v3.4.6 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/416
+- chore(deps): update dependency typescript-eslint to v8.60.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/417
+- chore(deps): update dependency dompurify to v3.4.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/418
+- chore(deps): update pnpm to v10.34.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/419
+- chore(deps): update pnpm to v10.34.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/420
+- chore(deps): update pnpm to v11 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/390
+### Others
+- build(deps): Bump flatted from 3.3.1 to 3.4.2 by @dependabot[bot] in https://github.com/sota1235/remark-link-bookmark/pull/406
+- chore(deps): update pnpm to v11 (fix CI build-script approval) by @sota1235 in https://github.com/sota1235/remark-link-bookmark/pull/421
+
 ## [v0.0.10](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.9...v0.0.10) - 2026-05-04
 ### Dependencies
 - chore(deps): update dependency @types/node to v25.5.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/341
