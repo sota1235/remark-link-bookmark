@@ -11,7 +11,7 @@
     "@types/mdast": "4.0.4",
     "clsx": "2.1.1",
     "debug": "4.4.3",
-    "dompurify": "3.4.8",
+    "dompurify": "3.4.9",
     "jsdom": "29.1.1",
     "open-graph-scraper": "6.11.0",
     "typescript": "^6.0.0",
