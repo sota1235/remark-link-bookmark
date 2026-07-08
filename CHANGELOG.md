@@ -1,5 +1,41 @@
 # Changelog
 
+## [v0.0.12](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.11...v0.0.12) - 2026-07-08
+
+### Dependencies
+- chore(deps): update dependency lint-staged to v17.0.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/424
+- chore(deps): update eslint monorepo to v10.4.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/425
+- chore(deps): update pnpm to v11.5.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/426
+- chore(deps): update typescript-eslint monorepo to v8.60.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/427
+- chore(deps): update vitest monorepo to v4.1.8 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/428
+- chore(deps): update dependency dompurify to v3.4.8 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/432
+- chore(deps): update dependency @types/node to v25.9.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/433
+- chore(deps): update dependency prettier to v3.8.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/434
+- chore(deps): update pnpm to v11.5.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/435
+- chore(deps): update typescript-eslint monorepo to v8.61.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/437
+- chore(deps): update dependency dompurify to v3.4.9 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/439
+- chore(deps): update pnpm to v11.5.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/440
+- chore(deps): update dependency @types/node to v25.9.3 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/441
+- chore(deps): update dependency dompurify to v3.4.10 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/444
+- chore(deps): update typescript-eslint monorepo to v8.61.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/446
+- chore(deps): update eslint monorepo to v10.5.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/449
+- chore(deps): update vitest monorepo to v4.1.9 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/447
+- chore(deps): update pnpm to v11.7.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/451
+- chore(deps): update pnpm to v11.8.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/455
+- chore(deps): update dependency @types/node to v25.9.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/457
+- chore(deps): update dependency lint-staged to v17.0.8 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/458
+- chore(deps): update dependency typescript-eslint to v8.62.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/460
+- chore(deps): update pnpm to v11.9.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/462
+- chore(deps): update dependency @types/node to v26 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/463
+- chore(deps): update dependency prettier to v3.8.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/465
+- chore(deps): update dependency typescript-eslint to v8.62.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/466
+- chore(deps): update dependency eslint to v10.6.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/468
+- chore(deps): update dependency prettier to v3.9.4 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/470
+- chore(deps): update dependency @types/node to v26.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/471
+- chore(deps): update dependency open-graph-scraper to v6.12.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/469
+### Others
+- chore(deps): update dependency dompurify to v3.4.11 [security] by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/453
+
 ## [v0.0.11](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.10...v0.0.11) - 2026-06-02
 ### Dependencies
 - chore(deps): update dependency dompurify to v3.4.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/383
