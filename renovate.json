@@ -5,5 +5,18 @@
   ],
   "labels": [
     "kind/dependencies"
+  ],
+  "packageRules": [
+    {
+      "matchDepNames": [
+        "pnpm"
+      ],
+      "matchDepTypes": [
+        "packageManager"
+      ],
+      "addLabels": [
+        "skip-changelog"
+      ]
+    }
   ]
 }
