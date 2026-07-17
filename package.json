@@ -23,7 +23,7 @@
     "@types/debug": "4.1.13",
     "@types/jsdom": "28.0.3",
     "@types/node": "26",
-    "eslint": "10.6.0",
+    "eslint": "10.7.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.8",
     "prettier": "3.9.5",
