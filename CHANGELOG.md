@@ -1,5 +1,24 @@
 # Changelog
 
+## [v0.0.13](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.12...v0.0.13) - 2026-08-03
+
+### Dependencies
+- chore(deps): update dependency vitest to v4.1.10 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/474
+- chore(deps): update dependency typescript-eslint to v8.63.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/477
+- chore(deps): update dependency @types/node to v26.1.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/480
+- chore(deps): update dependency dompurify to v3.4.12 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/483
+- chore(deps): update dependency prettier to v3.9.5 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/484
+- chore(deps): update dependency eslint to v10.7.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/489
+- chore(deps): update dependency typescript-eslint to v8.64.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/490
+- chore(deps): update dependency prettier to v3.9.6 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/496
+- chore(deps): update dependency typescript-eslint to v8.65.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/499
+- chore(deps): update dependency lint-staged to v17.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/498
+- chore(deps): update dependency lint-staged to v17.1.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/502
+- chore(deps): update dependency lint-staged to v17.2.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/504
+- chore(deps): update dependency @types/node to v26.1.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/505
+- chore(deps): update dependency eslint to v10.8.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/509
+- chore(deps): update dependency jsdom to v30 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/511
+
 ## [v0.0.12](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.11...v0.0.12) - 2026-07-08
 
 ### Dependencies
