@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.0.14](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.13...v0.0.14) - 2026-08-07
+
+### Dependencies
+- chore(deps): update dependency dompurify to v3.4.13 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/514
+- chore(deps): update dependency lint-staged to v17.3.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/517
+- chore(deps): update dependency typescript-eslint to v8.66.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/518
+
 ## [v0.0.13](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.12...v0.0.13) - 2026-08-03
 
 ### Dependencies
