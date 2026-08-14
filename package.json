@@ -21,7 +21,7 @@
   "devDependencies": {
     "@sota1235/eslint-config": "5.0.5",
     "@types/debug": "4.1.13",
-    "@types/jsdom": "28.0.3",
+    "@types/jsdom": "30.0.0",
     "@types/node": "26",
     "eslint": "10.8.0",
     "husky": "9.1.7",
