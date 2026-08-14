@@ -37,5 +37,3 @@ jobs:
       - name: Publishing to npm
         # pnpm doesn't work - refs: https://github.com/pnpm/pnpm/issues/4937
         run: npm publish --access public --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
