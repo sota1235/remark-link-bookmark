@@ -17,6 +17,19 @@
       "addLabels": [
         "skip-changelog"
       ]
+    },
+    {
+      "description": "ライブラリの挙動に影響しない開発用ツールの更新はchangelogに含めない",
+      "matchPackageNames": [
+        "lint-staged",
+        "typescript-eslint",
+        "eslint",
+        "@types/**",
+        "vitest"
+      ],
+      "addLabels": [
+        "skip-changelog"
+      ]
     }
   ]
 }
