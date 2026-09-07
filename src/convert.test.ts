@@ -34,5 +34,5 @@ test('Input markdown should be expected', async () => {
 
   const file = await remark().use(remarkLinkBookmark, {}).process(document);
 
-  expect(file.toString()).toMatchFileSnapshot('snapshots/output.md');
+  await expect(file.toString()).toMatchFileSnapshot('snapshots/output.md');
 });
