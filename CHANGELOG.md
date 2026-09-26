@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.0.15](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.14...v0.0.15) - 2026-09-26
+
+### Dependencies
+- chore(deps): update dependency dompurify to v3.4.15 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/553
+- chore(deps): update dependency prettier to v3.9.7 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/571
+- chore(deps): update dependency jsdom to v30.1.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/572
+- chore(deps): update dependency prettier to v3.9.8 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/575
+- chore(deps): update dependency jsdom to v30.1.1 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/574
+- chore(deps): update dependency prettier to v3.9.9 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/582
+
 ## [v0.0.14](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.13...v0.0.14) - 2026-09-06
 
 ### Dependencies
