@@ -25,7 +25,7 @@
     "@types/node": "26",
     "eslint": "10.11.0",
     "husky": "9.1.7",
-    "lint-staged": "17.5.1",
+    "lint-staged": "17.6.0",
     "prettier": "3.9.9",
     "remark": "15.0.1",
     "typescript-eslint": "8.70.1",
