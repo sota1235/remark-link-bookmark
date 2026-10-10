@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.0.16](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.15...v0.0.16) - 2026-10-10
+
+### Dependencies
+- chore(deps): update dependency jsdom to v30.1.2 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/594
+
 ## [v0.0.15](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.14...v0.0.15) - 2026-10-05
 
 ### Dependencies
