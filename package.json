@@ -28,7 +28,7 @@
     "lint-staged": "17.6.0",
     "prettier": "3.9.9",
     "remark": "15.0.1",
-    "typescript-eslint": "8.71.0",
+    "typescript-eslint": "8.71.1",
     "vitest": "^5.0.0"
   },
   "scripts": {
