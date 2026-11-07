@@ -1,5 +1,7 @@
 # Changelog
 
+## [v0.0.17](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.16...v0.0.17) - 2026-11-07
+
 ## [v0.0.16](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.15...v0.0.16) - 2026-11-06
 
 ### Dependencies
