@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.0.17](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.16...v0.0.17) - 2026-11-14
+
+### Dependencies
+- chore(deps): update dependency open-graph-scraper to v6.13.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/640
+- chore(deps): update dependency prettier to v3.10.0 by @renovate[bot] in https://github.com/sota1235/remark-link-bookmark/pull/651
+
 ## [v0.0.16](https://github.com/sota1235/remark-link-bookmark/compare/v0.0.15...v0.0.16) - 2026-11-06
 
 ### Dependencies
